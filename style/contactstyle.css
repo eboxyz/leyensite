@@ -2,13 +2,6 @@
   background-color: #eeecd5
 }
 
-body.staff{
-  background-color: #eeecd5
-}
-
-#staff{
-  background-color: #eeecd5;
-}
 #topWrapper{
   position: relative;
   display: inline-block;
@@ -19,27 +12,13 @@ body.staff{
   width: 500px;
   height: 105px;
   max-width: 50%;
-  background-image: url(pictures/url.jpg);
+  background-image: url(../pictures/url.jpg);
   margin-bottom: 1%;
   margin-top: 1%;
   display: inline-block;
   margin-left: 30%;
   margin-bottom: 1%;
 }
-
-#company{
-  font-family: 'Old Standard TT', sans-serif;
-  /*text-shadow: 2px 2px 2px black;*/
-  text-align: center;
-  /*margin-right: 50%;*/
-  /*float: right;*/
-  /*display: inline-block;*/
-  color: #fe2512;
-  opacity: 0.5
-  margin-bottom: 10%
-}
-
-
 
 .flex-nav ul {
   /*border:1px solid black;*/
@@ -77,24 +56,28 @@ li a{
 
 }
 
-#picture{
+
+#content{
+  border: 2px solid black;
+  height: 1000px;
+  /*margin-top*/
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
+#contactPicture{
   /*border: 2px solid black;*/
   margin-top: 1%;
   margin-left: 20%;
   margin-right: 20%;
   height: 55%;
+  top: -10px;
   width: auto;
-  background-image: url('pictures/pano/phoenixDrive.jpg');
+  background-image: url('../pictures/pano/goldenPoultryOver.jpg');
   background-size: cover;
-  border-radius: 10%%;
-}
-
-#content{
-  border: 2px solid black;
-  height: 650px;
-  /*margin-top*/
-  margin-left: 1%;
-  margin-right: 1%;
+  background-position: center;
+  margin-bottom: 1%;
 }
 
 #contact{
@@ -106,7 +89,9 @@ li a{
 }
 
 #contactForm{
-  margin-top: 0.5%
+  margin-top: 0.5%;
+  text-align: center;
+  height: 50%;
 }
 
 #aboutText{
@@ -114,17 +99,3 @@ li a{
   margin-right: 20%;
   margin-top: 1%;
 }
-
-
-
-
-
-
-
-background: #a90329; /* Old browsers */
-background: -moz-linear-gradient(top, #a90329 0%, #a90329 53%, #6d0019 81%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #a90329 0%,#a90329 53%,#6d0019 81%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #a90329 0%,#a90329 53%,#6d0019 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
-border-top-left-radius: 30%;
-border-top-right-radius: 30%;
