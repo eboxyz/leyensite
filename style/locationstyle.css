@@ -77,7 +77,7 @@ a:hover{
   margin-left: 25%;
   margin-right: 10%;
   width: 55%;
-  height: 500px;
+  height: 350px;
 }
 
 .carousel-inner > .item > .slides {
@@ -101,6 +101,11 @@ a:hover{
   background: none !important;
   filter: progid: none !important;
   outline: 0;
+  /*margin-bottom: %;*/
+}
+
+.carousel-indicators{
+  margin-bottom: 0.5%;
 }
 /*.carousel .carousel-control {
   visibility: hidden;

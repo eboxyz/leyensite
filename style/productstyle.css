@@ -24,13 +24,14 @@
   /*border:1px solid black;*/
   list-style: none;
   display: flex;
-  font-family: 'Old Standard TT', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   /*text-shadow: 2px 2px 2px black;*/
   text-align: right;
   max-width: 100%;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 1%
+  margin-top: 1%;
+  font-weight: bold
 }
 
 .flex-nav li{
@@ -56,9 +57,15 @@ li a{
 
 }
 
+a{
+text-decoration: none !important
+}
+a:hover{
+  color: red !important;
+  opacity: 0.8;
+}
 
 #content{
-  border: 2px solid black;
   height: 650px;
   /*margin-top*/
   margin-left: 1%;
@@ -77,4 +84,47 @@ li a{
   background-image: url('../pictures/pano/goldenPoultryOver.jpg');
   background-size: cover;
   background-position: center ;
+}
+
+#productCategories{
+  margin-left: -5%;
+  margin-bottom: 2%;
+}
+
+.categories{
+  font-size: 1.3em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+#chicken1{
+  max-width: 13%;
+  margin-left: 29.5%;
+  margin-bottom: 3%;
+  display: inline-block;
+  position: relative;
+}
+
+#chicken2{
+  max-width: 150px;
+  display: inline-block;
+  margin-left: 8.75%;
+  position: relative;
+  vertical-align: top;
+}
+
+#pork{
+  max-width: 150px;
+  display: inline-block;
+  margin-left: 9.75%;
+  position: relative;
+  vertical-align: top;
+}
+
+#beef{
+  max-width: 150px;
+  display: inline-block;
+  margin-left: 9.75%;
+  position: relative;
+  vertical-align: top;
 }

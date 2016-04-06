@@ -2,11 +2,6 @@
   background-color: #eeecd5
 }
 
-body.staff{
-  background-color: #eeecd5
-}
-
-
 #topWrapper{
   position: relative;
   display: inline-block;
@@ -14,7 +9,6 @@ body.staff{
 }
 
 .logo{
-  width: 220px;
   width: 500px;
   height: 105px;
   max-width: 50%;
@@ -23,36 +17,21 @@ body.staff{
   margin-top: 1%;
   display: inline-block;
   margin-left: 30%;
-  /*margin-left: 38%;*/
   margin-bottom: 1%;
 }
-
-#company{
-font-family: 'Josefin Sans', sans-serif;
-  /*text-shadow: 2px 2px 2px black;*/
-  text-align: center;
-  /*margin-right: 50%;*/
-  /*float: right;*/
-  /*display: inline-block;*/
-  color: #fe2512;
-  opacity: 0.5
-  margin-bottom: 10%
-}
-
-
 
 .flex-nav ul {
   /*border:1px solid black;*/
   list-style: none;
   display: flex;
-font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   /*text-shadow: 2px 2px 2px black;*/
   text-align: right;
   max-width: 100%;
-  margin-left: 16.5%;
+  margin-left: 20%;
   margin-right: 20%;
   margin-top: 1%;
-  font-weight: bold;
+  font-weight: bold
 }
 
 .flex-nav li{
@@ -76,6 +55,14 @@ li a{
   /*border-radius: 50%;*/
   margin: 1%, 1%, 0, 1%;
 
+}
+
+a{
+text-decoration: none !important
+}
+a:hover{
+  color: red !important;
+  opacity: 0.8;
 }
 
 #homePicture{

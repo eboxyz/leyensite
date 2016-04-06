@@ -24,13 +24,14 @@
   /*border:1px solid black;*/
   list-style: none;
   display: flex;
-  font-family: 'Old Standard TT', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   /*text-shadow: 2px 2px 2px black;*/
   text-align: right;
   max-width: 100%;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 1%
+  margin-top: 1%;
+  font-weight: bold
 }
 
 .flex-nav li{
@@ -55,6 +56,16 @@ li a{
   margin: 1%, 1%, 0, 1%;
 
 }
+
+a{
+text-decoration: none !important
+}
+a:hover{
+  color: red !important;
+  opacity: 0.8;
+}
+
+
 
 
 #content{
