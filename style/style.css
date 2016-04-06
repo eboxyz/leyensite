@@ -15,15 +15,15 @@ body.staff{
 
 .logo{
   width: 220px;
-  /*width: 500px;*/
+  width: 500px;
   height: 105px;
   max-width: 50%;
   background-image: url(../pictures/url.jpg);
   margin-bottom: 1%;
   margin-top: 1%;
   display: inline-block;
-  /*margin-left: 30%;*/
-  margin-left: 38%;
+  margin-left: 30%;
+  /*margin-left: 38%;*/
   margin-bottom: 1%;
 }
 
@@ -118,7 +118,6 @@ li a{
 font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
 }
-
 
 
 
