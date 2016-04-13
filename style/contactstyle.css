@@ -95,7 +95,6 @@ a:hover{
 }
 
 #contactForm{
-  margin-top: 0.5%;
   text-align: center;
   height: 50%;
 }
@@ -105,17 +104,20 @@ a:hover{
   margin-right: 20%;
   margin-top: 1%;
 }
-
+form{
+  margin-left: 5%;
+  margin-right: 300px;
+}
 #formLeft{
   display: inline-block;
+  margin-left: 20%;
 }
 
 #formRight{
-  display: inline-block;
+  float: right;
 }
 
 #textbox{
-  margin-left: 5%;
   margin-bottom: 14%;
   display: inline-block;
   resize: none;
