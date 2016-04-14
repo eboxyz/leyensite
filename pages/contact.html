@@ -34,31 +34,27 @@
 
   <div id="content">
     <div id="contactPicture">
-    Contact asfasfdaf
     </div>
-    <div id="contact">Contact Leyen Foods
+    <div id="contact"><h3 id="contactTitle">Contact Leyen Foods</h3>
       <div id="contactForm">
         <form action="MAILTO:jimmy@leyenfood.com" method="post">
           <div id="formLeft">
-          Full Name:<br>
-          <input type="text" name="fullName">
+          Full Name:<br><input class="form-group" type="text" name="fullName">
           <br>
           Company:<br>
-          <input type="text" name="company">
+          <input class="form-group" type="text" name="company">
           <br>
           Phone:<br>
-          <input type="text" name="phone">
+          <input class="form-group" type="text" name="phone">
           <br>
           E-mail:<br>
-          <input type="text" name="email">
+          <input class="form-group" type="text" name="email">
           <br>
           </div>
           <div id="formRight">
-          Comment:<br>
-          <!-- <input type="textbox" name="comment" size="100"> -->
-          <textarea id="textbox" class="form-control" name="comment" form="contactForm" placeholder="Enter comment here...">
-          </textarea>
-          <input type="submit" value="Submit" class="btn btn-success btn-lg">
+          Comment:
+          <textarea id="textbox" class="form-control" name="comment" form="contactForm"></textarea>
+          <input type="submit" class="btn btn-danger btn-md" id="contactBtn">
           </div>
         </form>
       </div>

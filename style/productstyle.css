@@ -27,10 +27,10 @@
   font-family: 'Josefin Sans', sans-serif;
   /*text-shadow: 2px 2px 2px black;*/
   text-align: right;
-  max-width: 100%;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 1%;
+  max-width: 40%;
+  left: 28%;
+  top: 1%;
+  position: relative;
   font-weight: bold
 }
 
@@ -95,11 +95,15 @@ a:hover{
   font-size: 1.3em;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
+  display: inline;
+  position: relative;
+  left: 20%;
+  margin: 10%;
 }
 
 #chicken1{
   max-width: 13%;
-  margin-left: 29.5%;
+  margin-left: 32%;
   margin-bottom: 3%;
   display: inline-block;
   position: relative;
@@ -115,7 +119,6 @@ a:hover{
 
 #pork{
   max-width: 150px;
-  display: inline-block;
   margin-left: 9.75%;
   position: relative;
   vertical-align: top;
@@ -124,7 +127,13 @@ a:hover{
 #beef{
   max-width: 150px;
   display: inline-block;
-  margin-left: 9.75%;
+  margin-left: 54%;
   position: relative;
   vertical-align: top;
+}
+
+.products{
+  height: 125px;
+  width: 125px;
+  border-radius: 50%
 }

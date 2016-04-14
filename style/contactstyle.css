@@ -27,10 +27,10 @@
   font-family: 'Josefin Sans', sans-serif;
   /*text-shadow: 2px 2px 2px black;*/
   text-align: right;
-  max-width: 100%;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 1%;
+  max-width: 40%;
+  left: 28%;
+  top: 1%;
+  position: relative;
   font-weight: bold
 }
 
@@ -70,17 +70,17 @@ a:hover{
   /*height: 1000px;*/
   /*margin-top*/
   margin-left: 1%;
-  margin-right: 1%;
+  /*margin-right: 1%;*/
 }
 
 #contactPicture{
   /*border: 2px solid black;*/
   margin-top: 1%;
   margin-left: 20%;
-  margin-right: 20%;
+  /*margin-right: 20%;*/
   height: 55%;
   top: -10px;
-  width: auto;
+  width: 60%;
   background-image: url('../pictures/pano/goldenPoultryOver.jpg');
   background-size: cover;
   background-position: center ;
@@ -99,22 +99,29 @@ a:hover{
   height: 50%;
 }
 
-#aboutText{
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 1%;
+#contactTitle{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+
 }
 form{
-  margin-left: 5%;
-  margin-right: 300px;
+  display: flex;
+  position: absolute;
+  left: 35%;
 }
+
 #formLeft{
-  display: inline-block;
-  margin-left: 20%;
+  position: relative;
+  right: 5%;
+  top: 50%;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
 }
 
 #formRight{
-  float: right;
+  /*float: right;*/
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
 }
 
 #textbox{
@@ -140,4 +147,9 @@ form{
   height: 200px;
   width: 200px;
   display: inline-block;
+}
+
+#contactBtn{
+  position: relative;
+  bottom: 17px;
 }
