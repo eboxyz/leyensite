@@ -80,46 +80,98 @@ a:hover{
   margin-right: 20%;
   height: 55%;
   top: -10px;
+  max-width: 80%;
   width: auto;
-  background-image: url('../pictures/pano/goldenPoultryOver.jpg');
+  /*background-image: url('../pictures/pano/goldenPoultryOver.jpg');
   background-size: cover;
-  background-position: center ;
+  background-position: center;*/
+}
+
+#chickenStock{
+  max-width: 65%;
+}
+#chickenPic{
+  height:300px;
+  width: 500px;
+}
+
+#porkStock{
+  max-width: 30%;
+  position: relative;
+  left: 20.1%;
+}
+
+#porkPic{
+  height: 150px;
+  width: 200px;
+}
+
+#beefStock{
+  max-width: 30%;
+  position: relative;
+  float: right;
+
+}
+
+#beefPic{
+  height: 150px;
+  width: 200px;
+}
+
+#porkStock{
+  /*position: relative;*/
+  float: left;
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+
 }
 
 #productCategories{
-  margin-left: -5%;
-  margin-bottom: 2%;
+
 }
 
-.categories{
-  font-size: 1.3em;
+#poultryCategories{
+  font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   display: inline;
   position: relative;
-  left: 20%;
-  margin: 10%;
+  left: 18%;
+  margin: 3%;
+  /*bottom: 25px;*/
+  top: 10px;
 }
 
-#chicken1{
+.meatWrapper{
+  position: relative;
+  top: 20px;
+}
+
+.pics{
   max-width: 13%;
-  margin-left: 32%;
-  margin-bottom: 3%;
+  left: 20%;
   display: inline-block;
   position: relative;
+}
+.pics:hover{
+  color: black;
+  opacity: 0.8;
 }
 
 #chicken2{
   max-width: 150px;
   display: inline-block;
-  margin-left: 8.75%;
+  /*margin-left: 8.75%;*/
   position: relative;
   vertical-align: top;
 }
 
 #pork{
+  display: inline-block;
   max-width: 150px;
-  margin-left: 9.75%;
+  margin-left: 25%;
   position: relative;
   vertical-align: top;
 }
@@ -127,13 +179,43 @@ a:hover{
 #beef{
   max-width: 150px;
   display: inline-block;
-  margin-left: 54%;
+  /*margin-left: 54%;*/
   position: relative;
   vertical-align: top;
 }
 
 .products{
-  height: 125px;
-  width: 125px;
-  border-radius: 50%
+  height: 113px;
+  width: 113px;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  box-shadow: 0 0 2px #888;
+  margin: 5px;
+}
+
+.meatTitle{
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  left: 22%;
+  font-size: 22px;
+}
+
+
+
+.pics .text{
+  visibility:hidden;
+  position: relative;
+  bottom: 70px;
+  margin-left: 2%;
+  left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+
+.pics:hover .text{
+  visibility:visible;
 }
