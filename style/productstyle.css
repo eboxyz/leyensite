@@ -80,7 +80,7 @@ a:hover{
   margin-right: 20%;
   height: 55%;
   top: -10px;
-  max-width: 80%;
+  max-width: 90%;
   width: auto;
   /*background-image: url('../pictures/pano/goldenPoultryOver.jpg');
   background-size: cover;
@@ -88,28 +88,29 @@ a:hover{
 }
 
 #chickenStock{
-  max-width: 65%;
+  max-width: 68%;
 }
 #chickenPic{
-  height:300px;
-  width: 500px;
+  height:362px;
+  width: 550px;
 }
 
 #porkStock{
   max-width: 30%;
   position: relative;
-  left: 20.1%;
+  left: 19.1%;
+  margin-bottom: -20px;
 }
 
 #porkPic{
-  height: 150px;
+  height: 180px;
   width: 200px;
 }
 
 #beefStock{
-  max-width: 30%;
+  max-width: 20%;
   position: relative;
-  float: right;
+  left: 19.1%;
 
 }
 
@@ -125,20 +126,50 @@ a:hover{
   width: auto;
   max-height: 100%;
   max-width: 100%;
+}
 
+#poultryStockText{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  position: relative;
+  bottom: 215px;
+  left: 240px;
+  font-size: 45px;
+}
+
+#porkStockText{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  position: relative;
+  bottom: 110px;
+  left: 80px;
+  font-size: 30px;
+}
+
+#beefStockText{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  position: relative;
+  bottom: 100px;
+  left: 75px;
+  font-size: 30px;
 }
 
 #productCategories{
-
+  position: relative;
+  left: 10%;
 }
 
 #poultryCategories{
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   display: inline;
   position: relative;
-  left: 18%;
+  left: 15%;
   margin: 3%;
   /*bottom: 25px;*/
   top: 10px;
@@ -150,15 +181,100 @@ a:hover{
 }
 
 .pics{
-  max-width: 13%;
-  left: 20%;
-  display: inline-block;
+  max-width: 12%;
+  left: 16%;
+  margin: 13px;
+  display: inline-flex;
   position: relative;
 }
 .pics:hover{
   color: black;
   opacity: 0.8;
 }
+
+.pics .text{
+  visibility:hidden;
+  position: relative;
+  /*bottom: 70px;*/
+  /*margin-left: 2%;*/
+  /*left: 20px;*/
+  right: 80px;
+  top: 45px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.noWrap{
+  white-space: nowrap;
+}
+
+#boneIn{
+  right: 100px;
+  bottom: 15px;
+}
+
+.pics:hover .text{
+  visibility:visible;
+}
+
+#chickenStock #poultryStockText{
+  visibility: hidden;
+}
+#chickenStock{
+  color: black;
+  opacity: 1;
+  transition: opacity 0.2s;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+#chickenStock:hover{
+  color: black;
+  opacity: 0.8;
+}
+#chickenStock:hover #poultryStockText{
+  visibility: visible;
+}
+
+#porkStock #porkStockText{
+  visibility: hidden;
+}
+#porkStock{
+  color: black;
+  opacity: 1;
+  transition: opacity 0.2s;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+#porkStock:hover{
+  color: black;
+  opacity: 0.8;
+}
+#porkStock:hover #porkStockText{
+  visibility: visible;
+}
+
+#beefStock #beefStockText{
+  visibility: hidden;
+}
+
+#beefStock{
+  color: black;
+  opacity: 1;
+  transition: opacity 0.2s;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+#beefStock:hover{
+  color: black;
+  opacity: 0.8;
+}
+#beefStock:hover #beefStockText{
+  visibility: visible;
+}
+
 
 #chicken2{
   max-width: 150px;
@@ -198,24 +314,5 @@ a:hover{
   position: relative;
   left: 22%;
   font-size: 22px;
-}
-
-
-
-.pics .text{
-  visibility:hidden;
-  position: relative;
-  bottom: 70px;
-  margin-left: 2%;
-  left: 20px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px black;
-}
-
-
-.pics:hover .text{
-  visibility:visible;
+  margin-bottom: -10px;
 }
