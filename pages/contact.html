@@ -37,7 +37,7 @@
     </div>
     <div id="contact"><h3 id="contactTitle">Contact Leyen Foods</h3>
       <div id="contactForm">
-        <form action="MAILTO:jimmy@leyenfood.com" method="post">
+        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxOWgOd3ReMi06zoe65ZXWBtnNECHfFqaoDtB6oysGVitVqVJs/exec">
           <div id="formLeft">
           Full Name:<br><input class="form-group" type="text" name="fullName">
           <br>
@@ -53,11 +53,15 @@
           </div>
           <div id="formRight">
           Comment:
-          <textarea id="textbox" class="form-control" name="comment" form="contactForm"></textarea>
+          <textarea id="textbox" class="form-control" form="gform"></textarea>
           <input type="submit" class="btn btn-danger btn-md" id="contactBtn">
           </div>
         </form>
       </div>
     </div>
+    <div style="display:none;" id="thankyou_message">
+      <h2>Thanks for contacting us. We will respond soon!</h2>
+    </div>
   </div>
+<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
