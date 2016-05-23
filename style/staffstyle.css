@@ -27,10 +27,10 @@
   font-family: 'Josefin Sans', sans-serif;
   /*text-shadow: 2px 2px 2px black;*/
   text-align: right;
-  max-width: 100%;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 1%;
+  max-width: 40%;
+  left: 28%;
+  top: 1%;
+  position: relative;
   font-weight: bold
 }
 
@@ -38,6 +38,21 @@
   flex:2.5;
   z-index: 1;
   /*float: right;*/
+}
+
+.nav ul{
+  display: flex;
+  position: relative;
+  left: 20%;
+  list-style: none;
+  top: 5px;
+  /*margin-left: 5%;*/
+}
+
+.nav li{
+  /*display: inline-block;*/
+  z-index: 1;
+  flex: 0.2;
 }
 
 li{

@@ -60,6 +60,7 @@ li a{
 a{
 text-decoration: none !important
 }
+
 a:hover{
   color: red !important;
   opacity: 0.8;
@@ -163,6 +164,18 @@ a:hover{
   left: 10%;
 }
 
+#porkCategories{
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  left: 15%;
+  margin: 3%;
+  bottom: 25px;
+  top: 20px;
+}
+
 #poultryCategories{
   font-size: 30px;
   font-family: 'Josefin Sans', sans-serif;
@@ -173,6 +186,18 @@ a:hover{
   margin: 3%;
   /*bottom: 25px;*/
   top: 10px;
+}
+
+#beefCategories{
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  left: 15%;
+  margin: 3%;
+  /*bottom: 25px;*/
+  top: 20px;
 }
 
 .meatWrapper{
