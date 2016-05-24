@@ -121,3 +121,16 @@ a:hover{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
 }
+
+.googleLocations{
+  position: relative;
+  left: 25%;
+  margin: 3%;
+  display: flex;
+}
+
+.locationInfo{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin-right: 5%;
+}
