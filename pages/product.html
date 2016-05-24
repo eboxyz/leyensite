@@ -57,10 +57,13 @@
       <div id="poultryCategories">Poultry</div>
         <div class="meatWrapper">
           <p class="meatTitle">Legs</p>
-          <div class="pics">
-            <img src="../pictures/photos/products/wholeLeg.jpg" class="products">
-            <p class="text">Whole Leg</p>
-          </div>
+          <a data-toggle="modal" data-target="#myModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/wholeLeg.jpg" class="products">
+              <p class="text">Whole Leg</p>
+            </div>
+          </a>
+          <img src="../pictures/photos/products/wholeLeg.jpg" class="modal" id="wholeLeg">
           <div class="pics">
             <img src="../pictures/photos/products/legQuarter.jpeg" class="products">
             <p class="text">Leg Quarter</p>
@@ -196,8 +199,37 @@
           </div>
       </div>
     </div>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Whole Leg</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/wholeLeg.jpg" id="wholeLeg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="../js/scroll.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../js/scroll.js"></script>
+<!-- <script type="text/javascript" src="../js/jquery.leanModal.min.js"></script> -->
+<!-- <script type="text/javascript" src="../js/modal.js"></script> -->
 </body>
 
 
