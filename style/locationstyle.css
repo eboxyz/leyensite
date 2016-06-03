@@ -76,7 +76,7 @@ a:hover{
 #myCarousel{
   margin-left: 25%;
   margin-right: 10%;
-  width: 55%;
+  width: 687px;
   height: 350px;
 }
 
@@ -115,7 +115,7 @@ a:hover{
 }*/
 
 #aboutLocation{
-  margin-top: 1%;
+  margin-top: 30px;
   margin-left: 25%;
   margin-right: 20%;
   font-family: 'Josefin Sans', sans-serif;
@@ -146,3 +146,6 @@ a:hover{
   height: 100%;
   width: 100%;
 }
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+

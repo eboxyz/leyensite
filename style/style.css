@@ -21,11 +21,9 @@
 }
 
 .flex-nav ul {
-  /*border:1px solid black;*/
   list-style: none;
   display: flex;
   font-family: 'Josefin Sans', sans-serif;
-  /*text-shadow: 2px 2px 2px black;*/
   text-align: right;
   max-width: 40%;
   left: 28%;
@@ -37,11 +35,9 @@
 .flex-nav li{
   flex:2.5;
   z-index: 1;
-  /*float: right;*/
 }
 
 li{
-  /*max-width: 30%;*/
   text-align: center;
 }
 
@@ -51,10 +47,7 @@ li a{
   max-width: 100%;
   color: black;
   font-size: 1.3em;
-  /*border: 1px solid black;*/
-  /*border-radius: 50%;*/
   margin: 1%, 1%, 0, 1%;
-
 }
 
 a{
@@ -66,31 +59,28 @@ a:hover{
 }
 
 #homePicture{
-  /*border: 2px solid black;*/
+  max-height: 350px;
+  max-width: 690px;
+  height: 100%;
+  width: 100%;
   margin-top: 1%;
-  margin-left: 20%;
+  margin-left: 24%;
   margin-right: 20%;
   margin-bottom: 1.5%;
-  height: 48%;
-  width: auto;
   background-image: url('../pictures/pano/lomitasPano.jpg');
   background-size: cover;
 }
 
 
 #content{
-  /*border: 2px solid black;*/
   font-family: 'Playfair Display', serif;
   height: 650px;
-  /*margin-top*/
   margin-left: 1%;
   margin-right: 1%;
 }
 
 #contact{
   margin-left: 1%;
-  /*padding-top: 100px;*/
-  /*margin-top: 0.5%;*/
   border: 2px solid black;
 }
 
@@ -99,22 +89,12 @@ a:hover{
 }
 
 #aboutText{
-  margin-left: 20%;
+  max-width: 690px;
+  width: 100%;
+  margin-left: 24%;
   margin-right: 20%;
   margin-top: 1%;
-font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
 }
 
-
-
-
-
-
-background: #a90329; /* Old browsers */
-background: -moz-linear-gradient(top, #a90329 0%, #a90329 53%, #6d0019 81%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #a90329 0%,#a90329 53%,#6d0019 81%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #a90329 0%,#a90329 53%,#6d0019 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
-border-top-left-radius: 30%;
-border-top-right-radius: 30%;

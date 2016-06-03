@@ -81,6 +81,19 @@ a:hover{
 }
 
 
+ul #categoryFlex{
+  display: flex;
+  position: relative;
+  left: 20%;
+  list-style: none;
+  top: 5px;
+}
+
+li .categories{
+  z-index: 1;
+  flex: 0.2;
+}
+
 #content{
   /*border: 2px solid black;*/
   height: 650px;
@@ -93,24 +106,27 @@ a:hover{
 #staffPicture{
   /*border: 2px solid black;*/
   margin-top: 1%;
-  margin-left: 20%;
-  margin-right: 20%;
-  height: 55%;
-  top: -10px;
-  width: auto;
+  margin-left: 24%;
+  max-height: 350px;
+  max-width: 690px;
+  height: 100%;
+  width: 100%;
   background-image: url('../pictures/pano/goldenPoultryOver.jpg');
   background-size: cover;
   background-position: center ;
 }
 
 #staffCategories{
-  margin-left: -5%;
+  position: relative;
+  top: 20px;
+  left: -40px;
 }
 
 .categories{
   font-size: 1.3em;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
+  top: 20px;
 }
 
 #salesPeople{
@@ -119,6 +135,17 @@ a:hover{
   margin-bottom: 3%;
   display: inline-block;
   position: relative;
+}
+
+#ceo{
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  left: 144px;
+}
+
+ul #lowerCategories{
+
 }
 
 .names{
@@ -137,9 +164,8 @@ a:hover{
 #accounting{
   max-width: 150px;
   display: inline-block;
-  margin-left: 8.75%;
+  margin-left: 0.75%;
   position: relative;
-  vertical-align: top;
 }
 
 #logistics{
@@ -147,5 +173,4 @@ a:hover{
   display: inline-block;
   margin-left: 9.75%;
   position: relative;
-  vertical-align: top;
 }
