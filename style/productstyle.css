@@ -211,7 +211,7 @@ a:hover{
 }
 
 .pics .text{
-  visibility:hidden;
+  /*visibility:hidden;*/
   position: relative;
   right: 80px;
   top: 45px;
@@ -220,6 +220,31 @@ a:hover{
   font-weight: bold;
   color: white;
   text-shadow: 2px 2px black;
+}
+
+
+#skinOnThigh{
+  right: 88px;
+}
+
+#miscutChopText{
+  right: 100px;
+  top: 50px;
+}
+
+#skinOnBellyText{
+  right: 100px;
+  top: 50px;
+}
+
+#sr3Text{
+  right: 88px;
+  top: 45px;
+}
+
+#sr4Text{
+  right: 88px;
+  top: 45px;
 }
 
 .noWrap{
@@ -287,10 +312,12 @@ a:hover{
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
 }
+
 #beefStock:hover{
   color: black;
   opacity: 0.8;
 }
+
 #beefStock:hover #beefStockText{
   visibility: visible;
 }
@@ -356,7 +383,7 @@ a:hover{
   width: 100%;
   height: 70%;
 }
-
+/*
 @media (min-width: 320px) and (max-width:800px){
   .flex-nav ul{
     left: 22%;
@@ -371,11 +398,11 @@ a:hover{
     margin-left: 18%;
   }
 
-}
+}*/
 
 
 
-@media (min-width:1025px) {
+@media (min-width:1281px) {
 
   .logo{
     margin-left: 36%;
