@@ -51,8 +51,9 @@ li a{
 }
 
 a{
-text-decoration: none !important
+  text-decoration: none !important
 }
+
 a:hover{
   color: red !important;
   opacity: 0.8;

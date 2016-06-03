@@ -21,11 +21,9 @@
 }
 
 .flex-nav ul {
-  /*border:1px solid black;*/
   list-style: none;
   display: flex;
   font-family: 'Josefin Sans', sans-serif;
-  /*text-shadow: 2px 2px 2px black;*/
   text-align: right;
   max-width: 40%;
   left: 28%;
@@ -37,11 +35,9 @@
 .flex-nav li{
   flex:2.5;
   z-index: 1;
-  /*float: right;*/
 }
 
 li{
-  /*max-width: 30%;*/
   text-align: center;
 }
 
@@ -51,36 +47,31 @@ li a{
   max-width: 100%;
   color: black;
   font-size: 1.3em;
-  /*border: 1px solid black;*/
-  /*border-radius: 50%;*/
   margin: 1%, 1%, 0, 1%;
 
 }
 
 a{
-text-decoration: none !important
+  text-decoration: none !important
 }
+
 a:hover{
   color: red !important;
   opacity: 0.8;
 }
 
 #content{
-  /*border: 2px solid black;*/
-  /*height: 1000px;*/
-  /*margin-top*/
   margin-left: 1%;
-  /*margin-right: 1%;*/
 }
 
 #contactPicture{
-  /*border: 2px solid black;*/
   margin-top: 1%;
-  margin-left: 20%;
-  /*margin-right: 20%;*/
-  height: 344px;
+  margin-left: 24%;
+  max-height: 350px;
   top: -10px;
-  width: 687px;
+  max-width: 690px;
+  height: 100%;
+  width: 100%;
   background-image: url('../pictures/pano/goldenPoultryOver.jpg');
   background-size: cover;
   background-position: center ;
@@ -88,10 +79,6 @@ a:hover{
 
 #contact{
   margin-left: 1%;
-  /*padding-top: 100px;*/
-  /*margin-top: 0.5%;*/
-  /*border: 2px solid black;*/
-
 }
 
 #contactForm{
@@ -104,6 +91,7 @@ a:hover{
   font-family: 'Josefin Sans', sans-serif;
 
 }
+
 form{
   display: flex;
   position: absolute;
@@ -119,7 +107,6 @@ form{
 }
 
 #formRight{
-  /*float: right;*/
   font-family: 'Josefin Sans', sans-serif;
   text-align: left;
 }

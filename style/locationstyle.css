@@ -21,11 +21,9 @@
 }
 
 .flex-nav ul {
-  /*border:1px solid black;*/
   list-style: none;
   display: flex;
   font-family: 'Josefin Sans', sans-serif;
-  /*text-shadow: 2px 2px 2px black;*/
   text-align: right;
   max-width: 40%;
   left: 28%;
@@ -37,11 +35,9 @@
 .flex-nav li{
   flex:2.5;
   z-index: 1;
-  /*float: right;*/
 }
 
 li{
-  /*max-width: 30%;*/
   text-align: center;
 }
 
@@ -51,24 +47,20 @@ li a{
   max-width: 100%;
   color: black;
   font-size: 1.3em;
-  /*border: 1px solid black;*/
-  /*border-radius: 50%;*/
   margin: 1%, 1%, 0, 1%;
-
 }
 
 a{
-text-decoration: none !important
+  text-decoration: none !important
 }
+
 a:hover{
   color: red !important;
   opacity: 0.8;
 }
 
 #content{
-  /*border: 2px solid black;*/
   height: 650px;
-  /*margin-top*/
   margin-left: 1%;
   margin-right: 1%;
 }
@@ -101,18 +93,11 @@ a:hover{
   background: none !important;
   filter: progid: none !important;
   outline: 0;
-  /*margin-bottom: %;*/
 }
 
 .carousel-indicators{
   margin-bottom: 0.5%;
 }
-/*.carousel .carousel-control {
-  visibility: hidden;
-}
-.carousel:hover .carousel-control {
-  visibility: visible;
-}*/
 
 #aboutLocation{
   margin-top: 30px;
