@@ -357,7 +357,46 @@ a:hover{
   height: 70%;
 }
 
+@media (min-width: 320px) and (max-width:800px){
+  .flex-nav ul{
+    left: 22%;
+    max-width: 55%;
+  }
 
+  #homePicture{
+    margin-left: 18%;
+  }
+
+  #aboutText{
+    margin-left: 18%;
+  }
+
+}
+
+
+
+@media (min-width:1025px) {
+
+  .logo{
+    margin-left: 36%;
+  }
+
+  .flex-nav ul {
+    max-width: 55%;
+    left: 28%;
+  }
+
+  #productPicture{
+    max-width: 40%;
+    margin-left: 27%;
+  }
+
+  #productCategories {
+    margin-left: 7%;
+    max-width: 1000px;
+  }
+
+}
 
 
 

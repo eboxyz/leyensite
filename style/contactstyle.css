@@ -140,3 +140,31 @@ form{
   position: relative;
   bottom: 17px;
 }
+
+@media (min-width:1025px) {
+
+  .logo{
+    margin-left: 36%;
+  }
+
+  #contactPicture{
+    margin-left: 31%;
+  }
+
+  #aboutText{
+    margin-left: 31%;
+  }
+
+  #contactForm {
+    position: relative;
+    left: 93px;
+  }
+
+
+}
+
+
+
+
+
+

@@ -143,3 +143,41 @@ a:hover{
   margin: 5px;
 }
 
+
+@media (min-width:1025px) {
+
+  #leyenLogo{
+    margin-left: 36%;
+  }
+
+ #myCarousel {
+    margin-left: 31%;
+    margin-right: 10%;
+    max-height: 350px;
+    max-width: 690px;
+    width: 100%;
+    height: 100%;
+}
+
+  #vendors {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    max-width: 1024px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 111px;
+  }
+
+
+  #vendorPics {
+      max-width: 687px;
+      position: relative;
+      left: 264px;
+  }
+
+}
+
+
+
+

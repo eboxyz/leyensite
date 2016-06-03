@@ -99,3 +99,36 @@ a:hover{
   font-size: 18px;
 }
 
+@media (min-width:1025px) {
+
+  .logo{
+    margin-left: 36%;
+  }
+
+  #homePicture{
+    margin-left: 31%;
+  }
+
+  #aboutText{
+    margin-left: 31%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

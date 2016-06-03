@@ -133,10 +133,6 @@ li .categories{
   left: 144px;
 }
 
-ul #lowerCategories{
-
-}
-
 .names{
   margin-bottom: -1px;
   font-weight: bold;
@@ -163,3 +159,34 @@ ul #lowerCategories{
   margin-left: 9.75%;
   position: relative;
 }
+
+@media (min-width:1025px) {
+
+  .logo{
+    margin-left: 36%;
+  }
+
+  #staffPicture{
+    margin-left: 31%;
+  }
+
+  #staffCategories {
+    width: 90%;
+    left: 84px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
