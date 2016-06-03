@@ -124,7 +124,7 @@ a:hover{
 
 .googleLocations{
   position: relative;
-  left: 25%;
+  left: 22%;
   margin: 3%;
   display: flex;
 }
@@ -132,5 +132,17 @@ a:hover{
 .locationInfo{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
-  margin-right: 5%;
+  margin-right: 20px;
+  margin-left: 10px;
+  max-width: 200px;
+  max-height: 250px;
+  height: 250px;
+  width: 200px;
+}
+
+.locationImage{
+  max-height: 200px;
+  max-width: 200px;
+  height: 100%;
+  width: 100%;
 }
